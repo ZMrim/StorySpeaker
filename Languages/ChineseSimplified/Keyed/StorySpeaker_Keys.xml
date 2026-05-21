@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <StorySpeaker_Settings_Connection>连接</StorySpeaker_Settings_Connection>
+  <StorySpeaker_Settings_Connect>连接 TTS 模型</StorySpeaker_Settings_Connect>
+  <!-- {0}=status text -->
+  <StorySpeaker_Settings_Status>连接状态: {0}</StorySpeaker_Settings_Status>
+  <StorySpeaker_Status_Connected>已连接</StorySpeaker_Status_Connected>
+  <StorySpeaker_Status_Disconnected>未连接</StorySpeaker_Status_Disconnected>
+  <!-- {0}=sampleRate -->
+  <StorySpeaker_Settings_SampleRate>采样率: {0} Hz</StorySpeaker_Settings_SampleRate>
+  <!-- {0}=loraName -->
+  <StorySpeaker_Settings_LoraLoaded>当前 LoRA: {0}</StorySpeaker_Settings_LoraLoaded>
+
+  <StorySpeaker_Settings_ServerUrl>服务端地址</StorySpeaker_Settings_ServerUrl>
+
+  <!-- {0}=cfgValue:F1 -->
+  <StorySpeaker_Settings_CFG>CFG 引导强度: {0:F1}</StorySpeaker_Settings_CFG>
+  <!-- {0}=steps -->
+  <StorySpeaker_Settings_Steps>推理步数: {0}</StorySpeaker_Settings_Steps>
+
+  <StorySpeaker_Settings_Lora>LoRA 音色管理</StorySpeaker_Settings_Lora>
+  <!-- {0}=loraName -->
+  <StorySpeaker_Settings_LoraSelect>选择 LoRA: {0}</StorySpeaker_Settings_LoraSelect>
+  <StorySpeaker_Lora_None>(无 / 基础模型)</StorySpeaker_Lora_None>
+  <StorySpeaker_Settings_LoraRefresh>刷新 LoRA 列表</StorySpeaker_Settings_LoraRefresh>
+
+  <StorySpeaker_Settings_ClonePath>参考音频路径（留空使用默认音色）</StorySpeaker_Settings_ClonePath>
+
+  <StorySpeaker_Settings_DialogueTTS>启用对话语音</StorySpeaker_Settings_DialogueTTS>
+  <StorySpeaker_Settings_DialogueTTS_Desc>开启后，对话回复将等待 TTS 音频生成完成后再显示。这会增加对话的延迟时间（数秒到数十秒）。</StorySpeaker_Settings_DialogueTTS_Desc>
+
+  <!-- 底部面板 -->
+  <!-- {0}=status -->
+  <StorySpeaker_BottomBar_Status>TTS 状态: {0}</StorySpeaker_BottomBar_Status>
+  <!-- {0}=loraName -->
+  <StorySpeaker_BottomBar_Lora>当前 LoRA: {0}</StorySpeaker_BottomBar_Lora>
+  <StorySpeaker_BottomBar_Connect>连接 TTS 模型</StorySpeaker_BottomBar_Connect>
+  <StorySpeaker_BottomBar_Reconnect>重新连接</StorySpeaker_BottomBar_Reconnect>
+
+</LanguageData>

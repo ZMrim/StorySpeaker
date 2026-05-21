@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Modmetadata>
+    <packageId>ZM.StorySpeaker</packageId>
+    <name>StorySpeaker - AI Narrator Voice</name>
+    <author>ZM</author>
+    <description>Adds TTS (Text-to-Speech) voice to the StoryMaker AI storyteller. Requires StoryMaker mod and a locally running VoxCPM2 TTS server.\n\nFeatures:\n- Converts storyteller narration to voice during events\n- Voice cloning via reference audio\n- LoRA-based voice switching\n- Dialogue voice synthesis (optional, adds delay)</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <moddependencies>
+        <li>
+            <packageId>ZM.StoryMaker</packageId>
+            <displayName>StoryMaker</displayName>
+        </li>
+    </moddependencies>
+</Modmetadata>
